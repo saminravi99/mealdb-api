@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <h1 id="hungry" class="text-center">Hungry Naki</h1>
+    <div class="input-group mb-3 w-50 mx-auto">
+        <input type="text" class="form-control " placeholder="Search Your Meal" aria-label="Search Your Meal" aria-describedby="search-btn" id="search-input">
+        <button class="btn btn-outline-secondary" type="button" id="search-btn" 
+        onclick="loadMeals()">Search</button>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4" id="meals-container">
+
+        </div>
+    </div>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
